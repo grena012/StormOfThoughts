@@ -1,0 +1,31 @@
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: linear-gradient(rgb(72, 69, 69),rgb(26, 26, 49),black);
+    
+    /* width: 100%; */
+    
+    
+}
+
+.quotes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    height: 400px;
+    width: 300px;
+    /* background-image: linear-gradient(rgb(213, 213, 19),rgb(90, 40, 40)); */
+    background-image:  url(../Images/Aesthetic.jpg) ;
+    border: solid black, 2px;
+    color: white;
+    opacity: 0.4;
+    text-align: center;
+    /* padding: 5px; */
+    margin: 10px;
+}
+

@@ -1,0 +1,20 @@
+.loginPage{
+    background-image: linear-gradient(rgb(72, 69, 69),rgb(26, 26, 49),black);
+    /* background-color: black; */
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding-top: 5%; */
+    /* padding-bottom: 5%; */
+}
+.loginForm{
+    background-image:  url(../Images/Aesthetic.jpg) ;
+    height: 40%;
+    width: 50%;
+    color: white;
+    opacity: 0.2;
+    /* margin-top: 30%; */
+}

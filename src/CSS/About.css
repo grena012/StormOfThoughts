@@ -1,0 +1,36 @@
+.coverPhoto{
+    /* background-image:  url(../Images/Aesthetic.jpg); */
+    background-image: linear-gradient(rgb(72, 69, 69),rgb(26, 26, 49),black);
+    background-color: black;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /* align-items: center; */
+    /* background-repeat: no-repeat; */
+}
+.introduction{
+    /* background-color: rgb(17, 95, 73); */
+    background-image:  url(../Images/Aesthetic.jpg);
+    color: white;
+    opacity: 0.2;
+    width: 50%;
+    padding: 5%;
+    border: solid 1px;
+    border-radius: 10px;
+
+}
+.login{
+    background-color: rgb(18, 7, 53);
+    display: flex;
+    width: 50%;
+    padding: 5%;
+    border: solid 1px;
+    border-radius: 10px;
+}
+login-button{
+    margin-right: 20px;
+}

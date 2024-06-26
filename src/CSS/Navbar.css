@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+    background-image:  url(../Images/Aesthetic.jpg);
+    /* background-color: black; */
+    /* color: rgb(45, 0, 87); */
+    color: whitesmoke;
+    align-items: center;
+}
+.AppIcon{
+        padding: 10px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+}
